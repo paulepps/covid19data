@@ -109,17 +109,17 @@ export class VirusDataTableArea extends Component {
             } else if (countryName === "Denmark") {
                 filteredResults[7] = this.addStatistics(filteredResults[7], result);
             } else if (countryName === "Mexico") {
-                filteredResults[8] = this.addStatistics(filteredResults[7], result);
+                filteredResults[8] = this.addStatistics(filteredResults[8], result);
             } else if (countryName === "Brazil") {
-                filteredResults[9] = this.addStatistics(filteredResults[7], result);
+                filteredResults[9] = this.addStatistics(filteredResults[9], result);
             } else if (countryName === "Spain") {
-                filteredResults[10] = this.addStatistics(filteredResults[7], result);
+                filteredResults[10] = this.addStatistics(filteredResults[10], result);
             } else if (countryName === "Chile") {
-                filteredResults[11] = this.addStatistics(filteredResults[7], result);
+                filteredResults[11] = this.addStatistics(filteredResults[11], result);
             } else if (countryName === "Germany") {
-                filteredResults[12] = this.addStatistics(filteredResults[7], result);
+                filteredResults[12] = this.addStatistics(filteredResults[12], result);
             } else if (countryName === "Italy") {
-                filteredResults[13] = this.addStatistics(filteredResults[7], result);
+                filteredResults[13] = this.addStatistics(filteredResults[13], result);
             } else {
                 if (result.length !== 1 && countryName !== "Country_Region") {
                     filteredResults.push(result);
